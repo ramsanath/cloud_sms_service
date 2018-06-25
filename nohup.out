@@ -1,0 +1,1091 @@
+2018-05-15T14:18:52.601959Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-05-15T14:18:52.602338Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-05-15T14:18:52.602416Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 11562 ...
+2018-05-15T14:18:52.611149Z 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2018-05-15T14:18:52.613216Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-15T14:18:52.613251Z 0 [Note] InnoDB: Uses event mutexes
+2018-05-15T14:18:52.613264Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-15T14:18:52.613274Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-15T14:18:52.613690Z 0 [Note] InnoDB: Number of pools: 1
+2018-05-15T14:18:52.613863Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-05-15T14:18:52.615652Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-05-15T14:18:52.629097Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-15T14:18:52.642386Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:18:52.642463Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:18:52.642506Z 0 [Note] InnoDB: Retrying to lock the first data file
+2018-05-15T14:18:53.647760Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:18:53.647833Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:18:54.648264Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:18:54.648341Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:18:55.657200Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-15T14:18:55.788961Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-05-15T14:18:55.789133Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-05-15T14:18:55.811238Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-05-15T14:18:55.812987Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-05-15T14:18:55.813029Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-05-15T14:18:55.813523Z 0 [Note] InnoDB: Waiting for purge to start
+2018-05-15T14:18:55.868903Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 50291047
+2018-05-15T14:18:55.869488Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-05-15T14:18:55.869531Z 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:18:55.886925Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2018-05-15T14:18:55.886968Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2018-05-15T14:18:55.888942Z 0 [Warning] CA certificate ca.pem is self signed.
+2018-05-15T14:18:55.889037Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2018-05-15T14:18:55.898317Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-05-15T14:18:55.898394Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-05-15T14:18:55.898534Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-05-15T14:18:55.906851Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180515 19:48:55
+2018-05-15T14:18:55.961515Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2018-05-15T14:28:18.951921Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-05-15T14:28:18.952825Z 0 [Note] Shutting down slave threads
+2018-05-15T14:28:18.953180Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-05-15T14:28:18.953341Z 0 [Note] Binlog end
+2018-05-15T14:28:18.955090Z 0 [Note] Shutting down plugin 'ngram'
+2018-05-15T14:28:18.955120Z 0 [Note] Shutting down plugin 'partition'
+2018-05-15T14:28:18.955132Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-05-15T14:28:18.955142Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-05-15T14:28:18.955152Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-05-15T14:28:18.955183Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-05-15T14:28:18.955194Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-05-15T14:28:18.955234Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-05-15T14:28:18.955246Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-05-15T14:28:18.955256Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-05-15T14:28:18.955266Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-05-15T14:28:18.955275Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-05-15T14:28:18.955284Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-05-15T14:28:18.955293Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-05-15T14:28:18.955302Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-05-15T14:28:18.955310Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-05-15T14:28:18.955319Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-05-15T14:28:18.955328Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-05-15T14:28:18.955336Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-05-15T14:28:18.955345Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-05-15T14:28:18.955354Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-05-15T14:28:18.955363Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-05-15T14:28:18.955371Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-05-15T14:28:18.955380Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-05-15T14:28:18.955389Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-05-15T14:28:18.955398Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-05-15T14:28:18.955406Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-05-15T14:28:18.955415Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-05-15T14:28:18.955424Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-05-15T14:28:18.955433Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-05-15T14:28:18.955442Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-05-15T14:28:18.955451Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-05-15T14:28:18.955460Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-05-15T14:28:18.955468Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-05-15T14:28:18.955477Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-05-15T14:28:18.955486Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-05-15T14:28:18.955495Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-05-15T14:28:18.955504Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-05-15T14:28:18.955557Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-15T14:28:18.955641Z 0 [Note] InnoDB: Starting shutdown...
+2018-05-15T14:28:19.060849Z 0 [Note] InnoDB: Dumping buffer pool(s) to /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:28:19.061449Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180515 19:58:19
+2018-05-15T14:28:19.219175Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-05-15T14:28:19.219544Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-05-15T14:28:19.219628Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 11732 ...
+2018-05-15T14:28:19.228017Z 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2018-05-15T14:28:19.230481Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-15T14:28:19.230521Z 0 [Note] InnoDB: Uses event mutexes
+2018-05-15T14:28:19.230534Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-15T14:28:19.230566Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-15T14:28:19.231003Z 0 [Note] InnoDB: Number of pools: 1
+2018-05-15T14:28:19.231161Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-05-15T14:28:19.232970Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-05-15T14:28:19.246309Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-15T14:28:19.260175Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:28:19.260261Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:28:19.260309Z 0 [Note] InnoDB: Retrying to lock the first data file
+2018-05-15T14:28:20.272692Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-15T14:28:20.360464Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-05-15T14:28:20.360492Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-05-15T14:28:20.360604Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-05-15T14:28:20.384215Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-05-15T14:28:20.385389Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-05-15T14:28:20.385417Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-05-15T14:28:20.385713Z 0 [Note] InnoDB: Waiting for purge to start
+2018-05-15T14:28:20.411001Z 0 [Note] InnoDB: Shutdown completed; log sequence number 50291075
+2018-05-15T14:28:20.411168Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-05-15T14:28:20.411187Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-05-15T14:28:20.411198Z 0 [Note] Shutting down plugin 'CSV'
+2018-05-15T14:28:20.411208Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-05-15T14:28:20.411217Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-05-15T14:28:20.411350Z 0 [Note] Shutting down plugin 'binlog'
+2018-05-15T14:28:20.413363Z 0 [Note] mysqld: Shutdown complete
+
+2018-05-15T14:28:20.437577Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 50291075
+2018-05-15T14:28:20.437859Z 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:28:20.438031Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-05-15T14:28:20.449241Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2018-05-15T14:28:20.449276Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2018-05-15T14:28:20.450971Z 0 [Warning] CA certificate ca.pem is self signed.
+2018-05-15T14:28:20.451104Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2018-05-15T14:28:20.455103Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180515 19:58:20
+2018-05-15T14:28:20.458725Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-05-15T14:28:20.458790Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-05-15T14:28:20.458904Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-05-15T14:28:20.523132Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2018-05-15T14:29:03.616223Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-05-15T14:29:03.616281Z 0 [Note] Shutting down slave threads
+2018-05-15T14:29:03.616310Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-05-15T14:29:03.616366Z 0 [Note] Binlog end
+2018-05-15T14:29:03.618444Z 0 [Note] Shutting down plugin 'ngram'
+2018-05-15T14:29:03.618490Z 0 [Note] Shutting down plugin 'partition'
+2018-05-15T14:29:03.618514Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-05-15T14:29:03.618536Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-05-15T14:29:03.618557Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-05-15T14:29:03.618600Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-05-15T14:29:03.618653Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-05-15T14:29:03.618709Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-05-15T14:29:03.618727Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-05-15T14:29:03.618742Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-05-15T14:29:03.618758Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-05-15T14:29:03.618775Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-05-15T14:29:03.618791Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-05-15T14:29:03.618806Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-05-15T14:29:03.618822Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-05-15T14:29:03.618837Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-05-15T14:29:03.618853Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-05-15T14:29:03.618867Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-05-15T14:29:03.618883Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-05-15T14:29:03.618898Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-05-15T14:29:03.618913Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-05-15T14:29:03.618928Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-05-15T14:29:03.618943Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-05-15T14:29:03.618957Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-05-15T14:29:03.618971Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-05-15T14:29:03.618985Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-05-15T14:29:03.619000Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-05-15T14:29:03.619014Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-05-15T14:29:03.619029Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-05-15T14:29:03.619043Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-05-15T14:29:03.619057Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-05-15T14:29:03.619072Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-05-15T14:29:03.619087Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-05-15T14:29:03.619103Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-05-15T14:29:03.619117Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-05-15T14:29:03.619131Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-05-15T14:29:03.619147Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-05-15T14:29:03.619163Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-05-15T14:29:03.619228Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-15T14:29:03.619324Z 0 [Note] InnoDB: Starting shutdown...
+2018-05-15T14:29:03.723203Z 0 [Note] InnoDB: Dumping buffer pool(s) to /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:29:03.723828Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180515 19:59:03
+2018-05-15T14:29:03.851946Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-05-15T14:29:03.852358Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-05-15T14:29:03.852439Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 11744 ...
+2018-05-15T14:29:03.856764Z 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2018-05-15T14:29:03.858741Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-15T14:29:03.858775Z 0 [Note] InnoDB: Uses event mutexes
+2018-05-15T14:29:03.858787Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-15T14:29:03.858798Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-15T14:29:03.859212Z 0 [Note] InnoDB: Number of pools: 1
+2018-05-15T14:29:03.859382Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-05-15T14:29:03.861137Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-05-15T14:29:03.874465Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-15T14:29:03.888277Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:29:03.888356Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:29:03.888399Z 0 [Note] InnoDB: Retrying to lock the first data file
+2018-05-15T14:29:04.894274Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-15T14:29:04.931251Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-05-15T14:29:04.931423Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-05-15T14:29:04.951030Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-05-15T14:29:04.952454Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-05-15T14:29:04.952487Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-05-15T14:29:04.952825Z 0 [Note] InnoDB: Waiting for purge to start
+2018-05-15T14:29:04.976958Z 0 [Note] InnoDB: Shutdown completed; log sequence number 50291103
+2018-05-15T14:29:04.977125Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-05-15T14:29:04.977144Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-05-15T14:29:04.977155Z 0 [Note] Shutting down plugin 'CSV'
+2018-05-15T14:29:04.977165Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-05-15T14:29:04.977174Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-05-15T14:29:04.977307Z 0 [Note] Shutting down plugin 'binlog'
+2018-05-15T14:29:04.978137Z 0 [Note] mysqld: Shutdown complete
+
+2018-05-15T14:29:05.007181Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 50291103
+2018-05-15T14:29:05.007559Z 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:29:05.007788Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-05-15T14:29:05.019716Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180515 19:59:05
+2018-05-15T14:29:05.023344Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2018-05-15T14:29:05.023384Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2018-05-15T14:29:05.024507Z 0 [Warning] CA certificate ca.pem is self signed.
+2018-05-15T14:29:05.024598Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2018-05-15T14:29:05.031376Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-05-15T14:29:05.031455Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-05-15T14:29:05.031566Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-05-15T14:29:05.046900Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2018-05-15T14:30:35.157802Z 3 [Note] Access denied for user 'dev'@'localhost' (using password: YES)
+2018-05-15T14:30:42.936625Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-05-15T14:30:42.936667Z 0 [Note] Shutting down slave threads
+2018-05-15T14:30:42.936699Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-05-15T14:30:42.936761Z 0 [Note] Binlog end
+2018-05-15T14:30:42.938938Z 0 [Note] Shutting down plugin 'ngram'
+2018-05-15T14:30:42.938985Z 0 [Note] Shutting down plugin 'partition'
+2018-05-15T14:30:42.939010Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-05-15T14:30:42.939032Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-05-15T14:30:42.939053Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-05-15T14:30:42.939098Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-05-15T14:30:42.939120Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-05-15T14:30:42.939181Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-05-15T14:30:42.939204Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-05-15T14:30:42.939225Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-05-15T14:30:42.939245Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-05-15T14:30:42.939266Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-05-15T14:30:42.939318Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-05-15T14:30:42.939335Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-05-15T14:30:42.939350Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-05-15T14:30:42.939366Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-05-15T14:30:42.939380Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-05-15T14:30:42.939396Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-05-15T14:30:42.939411Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-05-15T14:30:42.939425Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-05-15T14:30:42.939439Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-05-15T14:30:42.939453Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-05-15T14:30:42.939468Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-05-15T14:30:42.939483Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-05-15T14:30:42.939497Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-05-15T14:30:42.939511Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-05-15T14:30:42.939526Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-05-15T14:30:42.939542Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-05-15T14:30:42.939557Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-05-15T14:30:42.939572Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-05-15T14:30:42.939588Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-05-15T14:30:42.939604Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-05-15T14:30:42.939621Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-05-15T14:30:42.939637Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-05-15T14:30:42.939653Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-05-15T14:30:42.939670Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-05-15T14:30:42.939686Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-05-15T14:30:42.939702Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-05-15T14:30:42.939770Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-05-15T14:30:42.939856Z 0 [Note] InnoDB: Starting shutdown...
+2018-05-15T14:30:43.045088Z 0 [Note] InnoDB: Dumping buffer pool(s) to /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:30:43.045651Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 180515 20:00:43
+2018-05-15T14:30:43.160127Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-05-15T14:30:43.160495Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-05-15T14:30:43.160574Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 11768 ...
+2018-05-15T14:30:43.164744Z 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2018-05-15T14:30:43.166803Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-05-15T14:30:43.166838Z 0 [Note] InnoDB: Uses event mutexes
+2018-05-15T14:30:43.166855Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-05-15T14:30:43.166867Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-05-15T14:30:43.167299Z 0 [Note] InnoDB: Number of pools: 1
+2018-05-15T14:30:43.167476Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-05-15T14:30:43.169348Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-05-15T14:30:43.182643Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-05-15T14:30:43.196457Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 35
+2018-05-15T14:30:43.196566Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
+2018-05-15T14:30:43.196607Z 0 [Note] InnoDB: Retrying to lock the first data file
+2018-05-15T14:30:43.801469Z 0 [Note] InnoDB: Shutdown completed; log sequence number 50291131
+2018-05-15T14:30:43.801577Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-05-15T14:30:43.801618Z 0 [Note] Shutting down plugin 'CSV'
+2018-05-15T14:30:43.801631Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-05-15T14:30:43.801641Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-05-15T14:30:43.801776Z 0 [Note] Shutting down plugin 'binlog'
+2018-05-15T14:30:43.802738Z 0 [Note] mysqld: Shutdown complete
+
+2018-05-15T14:30:44.206188Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-05-15T14:30:44.239816Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-05-15T14:30:44.239981Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-05-15T14:30:44.260206Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-05-15T14:30:44.261984Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-05-15T14:30:44.262053Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-05-15T14:30:44.262538Z 0 [Note] InnoDB: Waiting for purge to start
+2018-05-15T14:30:44.317890Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 50291131
+2018-05-15T14:30:44.318223Z 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2018-05-15T14:30:44.318472Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-05-15T14:30:44.330633Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180515 20:00:44
+2018-05-15T14:30:44.333690Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2018-05-15T14:30:44.333727Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2018-05-15T14:30:44.334828Z 0 [Warning] CA certificate ca.pem is self signed.
+2018-05-15T14:30:44.334916Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2018-05-15T14:30:44.341500Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-05-15T14:30:44.341566Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-05-15T14:30:44.341686Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-05-15T14:30:44.355570Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2018-05-15T14:35:57.963995Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 81817ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-15T15:53:16.980023Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3697441ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-15T16:04:26.979392Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31028ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-15T18:20:09.174825Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5772329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T01:49:52.908333Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26977497ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T02:27:35.053356Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2229331ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T02:38:26.065759Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 319153ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T02:47:56.020216Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73891ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T03:43:41.965285Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1908163ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T04:16:15.971172Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1936935ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T04:45:13.966141Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1720884ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T05:20:27.974441Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2051583ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T05:49:26.973225Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 58524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T06:17:09.010686Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 248142ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T08:23:56.277338Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1010850ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T08:40:15.289147Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 837931ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T08:51:57.309481Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 506171ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T08:59:03.304470Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 265069ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T11:18:00.619559Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 889882ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T11:56:58.684583Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 581092ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T14:02:39.959574Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51023ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T15:37:24.981340Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5007126ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T16:11:39.035780Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 69848ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-16T18:20:15.186398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3817233ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T01:49:58.543659Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26978338ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T02:23:26.290424Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1974445ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T02:34:58.174670Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 543387ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T05:38:34.252513Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6176785ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T05:49:29.267804Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 74255ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T06:48:08.393821Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 84740ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T07:20:24.450064Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 332677ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T07:40:39.495537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9793ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T08:28:06.500375Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2675834ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T08:33:37.507391Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7871ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T08:40:16.508987Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 357813ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T09:52:33.683829Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12344ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T11:19:24.888895Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 573758ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T11:36:01.927240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 56038ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T12:08:51.957716Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1081674ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T12:18:36.991265Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 383139ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T12:25:35.993944Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 268600ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T12:28:08.003115Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44607ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T12:46:54.004564Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 946353ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T13:36:21.059234Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2039218ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T15:18:40.081940Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5359784ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T15:20:59.078833Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 88630ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T17:50:12.345371Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2547281ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-17T18:27:06.383669Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 905114ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T01:43:53.954729Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26202524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T01:54:38.396446Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 150941ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T01:57:18.398299Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 97586ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T02:30:06.394448Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1917678ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T02:39:03.404427Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 486701ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T03:10:31.428197Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 988733ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T03:13:50.434420Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 135658ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T03:36:16.473779Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1249614ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T06:42:24.519951Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801638ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T08:45:22.938061Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7373338ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T09:18:11.554182Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 383598ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T09:40:48.555622Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 719993ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T10:02:11.584147Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28053ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T11:17:58.744185Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5644ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T12:17:26.870137Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 390167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T14:54:49.015610Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6444527ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T15:37:11.101857Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9788ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T17:18:50.202079Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3410210ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T17:46:44.249279Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 341954ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-18T18:27:47.274078Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1580157ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T01:42:33.110472Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26080343ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T02:51:21.273989Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4122609ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T03:00:57.276213Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 524922ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T04:06:17.365224Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9925ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T04:37:41.354632Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1833684ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T04:49:04.360090Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 611576ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T05:41:49.434843Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 742136ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T09:33:30.570593Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10805739ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T10:16:33.212472Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2577360ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T11:22:55.585239Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3663049ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T11:34:45.603673Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32486ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T11:57:27.624947Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 569109ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T15:32:09.964457Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4631705ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-19T18:27:58.971514Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10359143ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T02:49:49.851399Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30105524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T04:10:14.975858Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4645578ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T04:50:27.050916Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 308516ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T05:11:06.056109Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1000490ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T05:18:07.167088Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 72111ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T05:59:12.093563Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2022722ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T06:24:35.120465Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 203544ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T06:57:22.118581Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1916778ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T07:34:36.115922Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2216909ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T07:58:54.118613Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1440900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T08:16:58.125054Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1020541ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T11:13:40.187804Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8060192ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T12:43:32.222881Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4116625ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T13:20:06.227509Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1928418ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T13:26:14.232437Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 242460ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T14:21:09.240127Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3232691ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T14:34:58.257438Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 314369ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T14:46:53.257532Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 450721ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T14:48:06.197033Z 16 [Note] Aborted connection 16 to db: 'cloud_sms_dev' user: 'sanath' host: '' (Got timeout reading communication packets)
+2018-05-20T15:04:45.282123Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 845260ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T15:25:59.314197Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 484270ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T15:30:22.333134Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 112562ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T15:33:46.338615Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 54890ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T16:50:16.338112Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4438124ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T16:59:45.049549Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 563309ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T17:31:38.403623Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 234367ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T17:57:01.464208Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 78290ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T19:25:15.768852Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 359116ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-20T19:51:59.692871Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 907215ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T02:04:59.567334Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22374422ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T02:32:36.696484Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1624387ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T02:39:51.698630Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 127845ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T02:57:00.713760Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 861481ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T03:36:26.716493Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2303567ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T03:41:07.727483Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45205ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T03:53:24.722709Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 668638ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T04:25:44.791957Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 207152ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T04:39:11.818606Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 222137ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T04:57:32.815736Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1050744ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T04:58:46.822368Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 11623ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T05:36:40.891768Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1297715ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T06:05:18.964137Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 508593ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T06:56:04.975444Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2419815ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T07:12:54.015214Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 33210ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T08:01:00.099176Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 351309ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T08:32:44.113980Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1588148ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T08:41:20.119140Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 453680ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T09:17:23.361103Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 265724ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T12:23:10.294270Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8825085ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T13:12:44.378570Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 493018ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T13:22:44.376989Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 549632ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T15:22:35.527605Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6740701ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T15:53:30.459588Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 729019ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T16:14:33.518612Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 74833ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T16:47:09.640895Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1167142ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-21T18:05:18.586571Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4384111ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T02:05:09.535078Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28785328ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T03:19:45.589574Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4443476ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T03:35:54.613689Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 273004ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T03:45:28.629334Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 68633ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T05:34:43.645733Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6250153ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T05:51:18.657295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 866296ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T06:55:52.783470Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 569858ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T07:37:43.789817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2447727ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T07:40:58.790761Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 69299ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T08:32:23.796693Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3021655ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T08:49:58.812730Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 278914ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T09:41:52.841915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2571476ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T10:51:39.914003Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3171487ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T10:59:50.932773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 125257ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T11:34:29.963740Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 875897ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T11:47:29.002580Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 111150ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T12:36:35.140567Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 136176ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T13:56:59.302716Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 353677ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T15:20:30.310759Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4937562ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T15:53:07.329111Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1304097ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T16:37:36.459860Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24863ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-22T18:35:28.804772Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 909457ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T02:05:20.485689Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26986086ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T02:57:06.820519Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3100868ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T04:15:17.728350Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3395449ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T05:53:55.739883Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5480660ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T07:49:10.006405Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 300949ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T08:02:43.025805Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 467134ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T08:55:15.030848Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2965978ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T09:01:57.033912Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 234208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T10:22:26.152821Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1386130ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T11:04:22.154313Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2469689ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T11:34:29.178193Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 948186ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T11:55:45.236343Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 337140ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T12:19:59.272061Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 824644ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T12:30:26.287297Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 383369ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T12:59:49.336050Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 506898ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T13:19:55.400874Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51729ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T13:29:40.414707Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39077ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T13:36:31.422786Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 105051ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T13:49:53.447529Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 266480ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T16:13:17.470103Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8094280ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-23T18:05:49.532980Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4877930ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T02:05:32.370980Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28777241ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T03:44:08.635464Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5883533ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T06:05:16.158176Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8462189ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T06:25:04.568066Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 293792ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T06:33:07.575769Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 213908ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T09:44:23.599348Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801997ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T10:00:51.317261Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 982205ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T10:39:10.670155Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 381896ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T10:58:26.685878Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 884194ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T11:01:37.717126Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 129813ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T11:23:28.765221Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 11010ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T12:41:28.881607Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1623026ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T12:55:00.927274Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 755799ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T13:05:08.948658Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 93732ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T13:47:26.029718Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 193766ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T14:18:59.036887Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1796709ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T15:12:34.079867Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2069783ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T15:19:15.089397Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 88813ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T16:19:13.221561Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 86727ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T17:01:22.256128Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1412715ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T17:10:48.312298Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18509ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T17:23:52.340348Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 126175ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-24T18:06:01.373619Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1423084ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T02:20:46.126240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29679285ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T04:17:03.375447Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6944525ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T04:22:23.387007Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 14988ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T05:35:45.396575Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4190357ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T06:02:32.538209Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 268948ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T07:00:15.532029Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 578446ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T08:41:58.691423Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1873369ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T08:50:02.699894Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25121ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T09:05:06.700784Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 720606ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T10:05:04.741264Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3414444ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T10:38:37.732900Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1800462ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T10:47:31.742915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 339574ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T13:41:52.743452Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10398560ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T16:01:31.541599Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8367186ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T16:35:47.822615Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 705600ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T18:06:16.849140Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4730667ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T18:06:32.240215Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10385ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-25T18:59:02.914577Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 910683ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T02:21:00.720638Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26511303ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T02:22:29.920506Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55617ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T02:45:56.923392Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1335966ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T03:19:21.974684Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1950842ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T03:24:35.974754Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51187ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T03:59:51.037846Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 314839ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T04:10:12.064335Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 103444ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T04:36:21.096180Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 752034ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T05:12:36.120638Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1867096ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T05:42:22.128141Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1768904ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T05:56:41.131820Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 794606ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T06:08:22.148859Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16957ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T06:22:46.158686Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 801540ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T07:11:57.194387Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1975365ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T07:37:24.226495Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 516167ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T07:48:47.249308Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 82336ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T08:56:24.521182Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 91092ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T09:17:56.537695Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 950998ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T09:24:14.556831Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 109231ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T09:36:10.565094Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 653597ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T11:13:19.488852Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5775721ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T11:34:37.513743Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 408535ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T11:40:34.644177Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22083ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T11:46:31.542566Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 189653ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T11:51:15.552759Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 220728ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T12:15:59.577656Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 108919ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T12:47:12.712182Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1711387ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T13:15:12.649728Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1160156ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T14:05:02.689127Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2933638ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T14:13:14.701176Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15556ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T14:50:59.693253Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2214685ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T14:59:30.695222Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 489898ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T15:12:32.715915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 118673ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T15:38:00.762257Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 265278ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T16:05:05.810113Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 133413ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T16:14:23.822788Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 332651ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T16:31:16.863555Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T16:35:52.865200Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 68328ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T18:02:47.867184Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5152573ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T18:37:31.032030Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 105666ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-26T19:00:30.948736Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 902677ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T01:21:16.802107Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 22840371ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T03:05:01.050803Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6218578ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T03:11:12.961191Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 146456ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T03:57:38.099135Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 106448ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T04:10:26.105688Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 607461ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T05:33:48.376737Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1501725ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T08:40:02.295118Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10349795ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T09:32:39.531853Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 191384ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T10:23:01.656415Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 92466ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T13:53:18.193347Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16700ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T14:41:12.237752Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 626912ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T15:19:28.215653Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 485913ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T15:32:13.405117Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8788ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T16:45:02.556859Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 714040ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-27T18:06:37.602097Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3371861ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T01:21:31.891888Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26089351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T03:20:53.467051Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7155602ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T03:36:02.481525Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 266748ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T03:48:39.509550Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 410840ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T05:38:41.504872Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6399249ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T06:33:49.544894Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1921433ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T08:05:03.559250Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5148994ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T08:56:56.577518Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2512862ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T09:27:01.597467Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 995247ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T09:33:16.636895Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 86934ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T09:42:49.653894Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 112358ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T09:46:15.658214Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 43531ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:00:59.672480Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 664644ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:04:37.689537Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32424ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:14:33.694207Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 434399ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:22:49.701815Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 362987ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:29:53.713807Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 182032ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:35:40.721729Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 302660ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T10:57:37.750584Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 442324ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T11:39:53.845178Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 582826ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T11:49:56.880932Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 156609ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T12:21:30.878538Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1844884ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T13:37:12.896231Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4096576ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T13:57:40.906348Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 815052ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T14:06:54.932629Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 410064ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T16:36:30.037203Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6374996ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T17:46:56.150868Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 774449ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-28T18:21:52.175256Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1884422ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T02:21:48.998027Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28791360ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T04:50:24.277325Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8882400ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T09:29:50.513723Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16761204ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T10:45:01.304558Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4446872ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T11:25:14.310157Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1497936ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T12:25:22.320333Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1278124ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T13:35:21.459984Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 804212ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T13:41:18.453640Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 309718ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T14:07:03.455481Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1495679ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T15:23:12.474931Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3944200ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T15:47:07.496824Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1086791ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T15:57:29.528018Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 185452ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T16:12:20.657671Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 99877ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-29T18:07:09.609807Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5490856ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T02:22:06.030341Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 29691405ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T03:50:35.601689Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5276383ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T05:54:25.109345Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7401136ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T06:03:34.614273Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30705ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T06:25:22.638217Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 625230ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T06:50:37.663467Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1163792ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T07:06:01.681207Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 791395ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T07:12:29.708750Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 245128ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T07:28:19.734573Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 107020ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:03:40.789266Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 477850ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:07:14.806738Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73251ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:18:57.811086Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 572409ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:27:40.845596Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34418ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:33:49.858365Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 70170ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T08:50:06.884801Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48994ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T09:29:31.896734Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2229497ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T14:44:41.660174Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4805843ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T15:26:28.563915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36776ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T17:09:40.778844Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 63150ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T17:32:07.817339Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 239281ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T18:03:14.882558Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 280823ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T18:13:35.886287Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 558594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T18:14:28.243401Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47344ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T18:29:46.941654Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 108151ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-30T19:01:35.068845Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 917852ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T02:22:24.320215Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26444258ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T02:23:07.971570Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10551ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T02:30:06.079751Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55536ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T02:46:41.005768Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 316000ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T03:21:30.026678Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1698827ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T03:41:37.052887Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 244494ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T03:44:48.064439Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 23427ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T05:48:22.075076Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7374655ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T05:53:56.802869Z 39 [Note] Aborted connection 39 to db: 'newgen_dev' user: 'newgen' host: '' (Got an error reading communication packets)
+2018-05-31T08:45:42.103316Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9532440ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T08:54:09.119624Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 178586ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T08:59:53.121942Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 282714ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T11:35:34.122455Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9278086ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T11:37:11.127445Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35392ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T12:07:03.321901Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 236329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T12:56:54.293221Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 208088ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T13:24:45.306206Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1308778ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T13:49:26.330505Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 963985ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T13:55:15.365140Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 140265ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T15:35:28.411604Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4774859ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T16:06:10.472509Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 188133ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-05-31T18:37:58.514056Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7946353ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T02:22:44.046516Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27880296ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T03:10:20.511842Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2823460ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T05:53:12.948569Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9767348ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T06:30:56.562891Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1114083ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T08:30:12.570202Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7092515ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T08:53:29.604140Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61997ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T09:30:35.675976Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21935ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T09:45:01.699797Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 49999ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T10:41:43.804221Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 811211ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T12:09:13.911834Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2577845ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T12:28:40.908937Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1129782ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T12:55:39.967347Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 922898ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T13:43:50.203345Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38475ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T14:28:38.178370Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 166119ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T15:47:11.209638Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3836815ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-01T18:38:20.483964Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3929993ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T01:50:11.390432Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 25905423ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T04:49:35.921836Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 132429ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T04:59:39.932552Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 228815ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T05:13:17.949575Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 312900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T05:21:44.963047Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 246123ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T05:38:36.979744Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 413537ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T05:48:08.012512Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 68537ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T06:51:54.122724Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 996089ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T11:44:42.414361Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10820882ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T13:11:05.589295Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 268145ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T13:48:38.604896Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1807484ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T14:45:04.746817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39016ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-02T18:02:50.782964Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10820197ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T03:42:50.621811Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 34794405ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T04:08:41.817113Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 311869ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T06:02:04.168727Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 771765ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T07:07:05.167708Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1485263ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T08:24:59.453316Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 757874ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T09:17:48.497240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 67259ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T12:22:24.093813Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 292892ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T12:31:05.068618Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36620ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T13:27:53.108181Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 167706ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T14:36:23.256503Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2689395ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T15:20:29.193615Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1030042ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T16:14:40.252923Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2307092ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T16:37:57.285568Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 558500ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T16:53:44.389985Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 884602ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T19:38:38.890188Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 672729ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-03T20:40:30.941832Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 922451ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T01:43:15.684695Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18135467ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T03:01:08.953461Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4643228ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T03:06:54.810263Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 150839ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T03:51:11.833972Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1982195ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T05:58:03.916854Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5296890ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T05:59:52.001806Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 47470ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T06:01:43.908594Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38494ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T08:37:07.184317Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2107097ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T08:50:12.300801Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 306508ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T09:29:57.307931Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 49832ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T09:42:25.326471Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8798ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T09:46:12.326168Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 174745ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T10:24:12.411191Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 30151ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T10:37:24.425355Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 162719ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T10:55:06.461117Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 175631ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T11:24:56.477896Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1305352ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T11:49:33.681231Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 155559ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T12:19:51.702553Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1040272ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T12:27:55.615458Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 450846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T15:33:20.032069Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5535479ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T16:05:20.939790Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 719547ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-04T18:13:42.335108Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1065914ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T01:43:41.437934Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26987495ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T03:08:31.319361Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5078367ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T03:18:31.228987Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 453575ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T03:30:31.348217Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 175586ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T04:27:38.469045Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2067419ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T04:59:05.437500Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1870303ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T05:27:17.301391Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1607592ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T06:06:43.471284Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2326913ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T06:34:10.350426Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 528816ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T08:43:46.834518Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4163293ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T10:00:22.747976Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1425423ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T11:45:54.852301Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1183706ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T15:58:03.403590Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5296036ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-05T18:14:22.333865Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5641750ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T01:44:08.325022Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26956620ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T02:05:42.472525Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1284161ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T02:15:32.351346Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 426456ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T05:08:59.843287Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2469270ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T05:41:25.692859Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1883771ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T08:54:33.029371Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2730042ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T09:52:47.126916Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 568351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T09:56:36.144648Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27289ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T10:09:23.158398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 735677ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T11:27:57.256971Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2251264ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T11:51:40.293535Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45254ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T15:10:25.331912Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10826083ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T15:13:33.763945Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 183356ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T15:45:17.392794Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 59876ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-06T18:14:51.570059Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6398960ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T01:44:36.260734Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26973344ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T02:58:07.568524Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4399539ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T05:52:27.867122Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10455345ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T06:15:02.731046Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50704ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T08:32:03.916240Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1755603ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T08:51:50.968009Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50162ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T09:01:53.809784Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 403257ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T09:43:33.908151Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27464ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T10:17:46.909622Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2035885ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T11:17:46.941818Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2595675ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T11:59:12.964606Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1753324ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T12:12:26.969069Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 484808ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T14:10:49.300823Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 442514ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T14:13:03.303060Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 101834ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T17:36:07.351121Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10827135ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T23:29:39.276151Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21200596ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-07T23:49:57.476378Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1167087ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T00:11:53.910082Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1230196ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T03:04:46.573966Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10335439ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T04:24:46.752685Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4652313ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T04:34:15.410598Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 494208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T07:42:21.424209Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800212ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T08:37:02.763983Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3280247ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T09:36:09.470665Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2431043ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T10:04:58.520723Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 57468ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T10:38:56.567060Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48958ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T11:18:00.718994Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1014732ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T11:22:36.955864Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 229128ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T12:23:45.700163Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1298320ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T12:25:51.181736Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21100ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-08T15:28:03.788315Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10800182ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T03:04:28.092412Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41783292ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T04:07:14.954771Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 89658ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T06:26:29.308563Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 469992ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T06:52:20.189848Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 203541ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T07:30:33.215238Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1897103ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T10:43:54.249104Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10403209ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T10:57:35.255898Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 762399ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T11:00:36.283839Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42520ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T11:28:08.313219Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 46005ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T12:34:26.357996Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2515656ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T13:39:16.360737Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3798524ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T15:51:23.402738Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6438222ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T16:06:53.417434Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 86297ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T16:17:24.437906Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 64355ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T17:17:38.534093Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 452483ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-09T18:50:14.578868Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4405055ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T01:34:57.932254Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24278332ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T03:21:44.570317Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6399613ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T04:23:07.863102Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3678257ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T05:22:33.597355Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2803562ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T08:27:30.601287Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10828066ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T11:43:57.386011Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 11781229ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T11:53:16.620555Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51395ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T15:02:33.732113Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801056ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T15:35:34.279648Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1975409ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T16:04:54.668586Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 489035ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-10T18:05:42.747780Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5473273ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T01:50:28.267113Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 27880468ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T03:19:27.743773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5306347ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T14:09:37.291206Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39001216ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T14:21:52.871934Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 53208ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T15:33:27.908634Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 658851ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T15:35:13.924551Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 55673ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-11T18:21:15.074256Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6367489ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T01:35:58.784387Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26072384ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T01:40:27.075966Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 256479ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T01:51:27.087349Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 391204ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T01:56:35.101779Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 107243ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T02:06:34.111792Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 496549ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T02:26:59.142467Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 213714ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T03:07:12.154238Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2249481ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T04:19:44.197972Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3267160ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T05:57:17.236122Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4142277ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T08:17:44.690420Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61640ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T08:57:31.566890Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2324775ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T09:34:37.628329Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 419205ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T11:01:52.671358Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4224502ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T11:10:43.680775Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 205930ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T11:37:23.691528Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1536748ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T12:41:38.991292Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 69309ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T14:25:01.993254Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6156842ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T15:35:36.148683Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 50917ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-12T18:21:47.171393Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8425429ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T01:36:29.932147Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26074257ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T02:16:18.164989Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2353528ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T05:43:15.415852Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12412171ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T05:45:46.078724Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 40942ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T07:48:42.364749Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 149790ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T08:18:52.385726Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1260227ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T08:25:52.432626Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 283774ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T08:44:39.465443Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 174716ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T10:10:09.496792Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4495297ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T10:14:36.493169Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 147443ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T10:17:32.502101Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 90605ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T10:20:41.506239Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 150340ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T11:54:41.512580Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5557594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T11:58:55.513739Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 219287ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T15:00:24.523338Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10803576ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T16:28:23.239379Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5267183ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-13T18:22:15.575832Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5422900ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T01:37:02.287545Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26075285ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T03:06:58.576476Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5384621ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T03:31:34.062584Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1470245ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T03:48:03.590581Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 758743ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T03:53:41.590216Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 290646ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T03:58:26.622248Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 130443ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T04:15:12.654090Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 300560ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T07:19:47.666063Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801857ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T08:01:17.410330Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2486443ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T08:09:47.673973Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 223377ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T08:56:18.697145Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2384601ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T09:44:06.801157Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 339523ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T10:10:45.847153Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 305868ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T11:36:08.016623Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 705598ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T12:23:11.087272Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1429921ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T13:04:55.092575Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2440492ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T13:08:16.087867Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 157583ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T13:30:57.101278Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1068910ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T13:38:18.108203Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 322943ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T13:46:17.125788Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 155669ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T14:00:19.140130Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 484325ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T14:20:06.170598Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 649240ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T17:05:34.178739Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9865507ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T17:11:56.180106Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 69782ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-14T18:07:34.230722Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1744136ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T01:37:35.062881Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26995386ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T03:38:55.358268Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7274573ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T05:43:45.284314Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6293802ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T06:23:27.336678Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 808477ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T06:51:59.402557Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 155654ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T08:33:56.585691Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1596872ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T09:40:49.762312Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 195132ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T10:05:41.775220Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1309175ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T10:16:08.817179Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 559603ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T10:34:17.853536Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 86525ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T13:27:09.219667Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 356341ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T13:46:29.230033Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1098626ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T13:48:41.270697Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 86831ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T13:50:40.271297Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61345ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T13:58:12.279374Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 392810ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T17:08:42.305477Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801957ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T17:16:41.989637Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 474594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-15T18:08:24.352883Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1396235ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T01:38:09.019127Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26979427ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T02:45:00.354210Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3978465ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T03:23:40.414655Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 357729ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T03:42:05.471963Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 142401ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T04:01:03.481074Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 774809ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T04:08:29.513217Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 173010ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T05:34:56.701031Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 507329ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T05:47:33.690370Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 706707ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T06:24:48.697651Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2171710ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T07:44:11.889583Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 184441ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T08:41:27.969915Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1287433ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T10:23:13.235005Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 122908ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T12:17:43.462554Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 572689ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T13:13:24.582944Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 117147ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T13:21:47.600891Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21053ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T13:53:12.606327Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1834642ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T14:55:31.599628Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3721877ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T15:50:07.715802Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48396ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T15:56:59.724454Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 122918ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T16:26:15.820040Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 79351ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T16:43:34.845303Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 135227ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T16:45:52.852657Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 48619ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-16T18:09:00.976582Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1629008ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T01:38:44.417955Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26978426ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T03:47:51.984492Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 7741539ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T06:19:38.226363Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5254115ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T07:34:51.126230Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4067407ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T07:50:44.143219Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 246661ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T09:32:27.267251Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3338856ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T10:14:59.333487Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 310955ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T11:21:16.410705Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1850846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T11:26:25.417928Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44141ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T12:00:56.465285Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 640156ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:00:16.546088Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9199642ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:13:25.551019Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 220006ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:20:58.566384Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 93107ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:28:47.562647Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 418634ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:46:36.607670Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 129937ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T15:47:40.611679Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 13607ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-17T18:57:45.638762Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10802892ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T06:20:25.622276Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 40948192ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T06:33:53.764558Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 94459ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T06:44:38.680673Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 37045ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T06:55:18.700538Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 81681ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T07:05:32.718274Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 83427ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T07:36:05.727900Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1687023ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T07:58:22.764597Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 93315ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T08:14:28.795027Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 42031ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T08:18:27.803485Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 71437ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T09:10:00.814362Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2931089ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T09:23:13.834822Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 52729ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T09:26:02.837051Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44602ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T09:47:18.929042Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 82125ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T09:50:21.929014Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 106650ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T10:04:44.940107Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 820868ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T12:01:39.203773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 670922ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T12:19:27.225763Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 983566ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T12:30:12.244723Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 274509ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T12:38:07.266624Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 28637ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T13:24:31.349898Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 396182ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T13:33:17.382672Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 162728ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T13:54:29.393342Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1223374ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T14:05:30.422952Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 623793ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-18T17:06:46.444554Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10802653ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T03:49:03.358031Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38525607ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T04:01:48.479048Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39445ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T05:57:27.473848Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6885736ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T06:14:21.502090Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 75261ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T06:23:00.516373Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 9557ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T06:28:20.523161Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 281892ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T08:29:13.783035Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1138978ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T10:40:03.115183Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 186743ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T11:47:22.117553Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3965512ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:09:27.133771Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 827337ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:21:46.170806Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 460132ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:24:02.169351Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 87583ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:30:00.185526Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44977ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:40:21.187098Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 397295ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:46:38.213623Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 83175ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T12:52:34.218231Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61309ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-19T17:47:52.495538Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10835837ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T04:15:14.285252Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 37613129ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T04:43:36.527522Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 599023ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T04:48:32.549508Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 112151ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T05:01:23.585456Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 339783ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T05:08:40.608454Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 135861ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T05:14:32.612634Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 176379ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T05:22:29.630614Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 74438ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:07:40.726584Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 462043ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:10:37.745848Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8378ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:20:34.760300Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 115754ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:25:30.767296Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 175568ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:37:23.775889Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 441946ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:38:58.794892Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24615ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:44:53.794425Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 156417ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:51:56.805270Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 257665ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T06:59:37.821294Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 92599ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:20:36.899163Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 193728ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:25:53.911470Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16031ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:31:47.914639Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 249512ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:33:35.928506Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36674ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:37:14.929644Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 141697ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:44:04.929870Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 322968ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T07:46:51.943129Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 91763ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T08:04:41.979017Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45021ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T08:46:59.984696Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2428481ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T08:54:39.992031Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 324677ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T09:19:47.019856Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 756143ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T09:29:53.064030Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 375283ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T09:33:12.055694Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 111367ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T09:44:01.077229Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61457ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T09:46:31.094113Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15557ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T10:14:38.131026Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 179297ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T10:22:08.123399Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 410546ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T11:00:00.213914Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 159385ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T11:01:47.217032Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45670ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T12:20:11.288550Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1925136ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T12:53:15.363863Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 73973ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:26:09.461677Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 77999ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:46:35.498544Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 185497ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:47:38.503995Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4760ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:49:15.535797Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 66846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:51:55.544742Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 102786ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T13:56:43.551515Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 162678ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-20T16:59:01.557046Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10801562ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T01:39:46.676437Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 31215205ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T03:10:59.748514Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 708073ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T03:37:46.783407Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1165453ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T04:34:25.921152Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 330468ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T06:18:35.086166Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5567021ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T07:53:40.320822Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 37003ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T07:58:54.201028Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4797ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T08:01:49.206506Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 49956ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T08:53:15.212468Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2747934ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T09:07:39.230398Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 122379ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T10:57:00.486573Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 222012ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T13:14:50.826519Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 293723ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T13:21:28.846096Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 32723ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T13:45:43.881667Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 275706ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T15:50:03.066030Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2877276ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T15:52:08.073682Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 59651ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T16:10:39.092027Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 498014ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-21T18:17:50.266241Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3468423ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T01:32:35.096782Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 26079753ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T01:51:36.263612Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1119122ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T02:35:00.271369Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2314226ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T05:49:16.298342Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10838479ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T06:16:00.993679Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1586241ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T08:47:03.666479Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2456846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T14:08:40.200363Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2926713ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T17:26:11.602443Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 948502ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-22T20:09:37.971189Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 941951ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T01:33:17.407307Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 19408302ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T03:21:59.969081Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6510584ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T03:57:34.016372Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 574189ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T04:34:27.074098Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 759879ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T05:00:41.120202Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 952127ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T08:27:38.173141Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10841763ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T08:48:21.792548Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1238221ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T09:15:39.209140Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 591432ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T11:09:44.497981Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 51594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T11:36:49.542531Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 393243ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T12:26:13.569999Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2162829ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T13:52:43.639172Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2685443ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T15:09:31.658847Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3841616ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-23T18:49:15.956771Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5715877ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T01:34:00.407885Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 24279313ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T02:58:21.949671Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5051614ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T03:53:58.002634Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1384969ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T04:09:44.042651Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 172679ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T04:15:17.046732Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 145378ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T04:20:48.056338Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 97199ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T04:36:00.078023Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 350291ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-06-24T04:58:16.114945Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 105633ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)

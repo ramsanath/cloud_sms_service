@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  android_code: MyString
+  integerstatus: MyString
+  string: MyString
+
+two:
+  android_code: MyString
+  integerstatus: MyString
+  string: MyString

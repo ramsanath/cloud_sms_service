@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sender_address: MyString
+  string: MyString
+  body: MyString
+  text: MyString
+  subject: MyString
+  string: MyString
+  received_at: MyString
+  date: MyString
+  type: 
+  string: MyString
+  thread: MyString
+  integer: MyString
+  is_read: MyString
+  tinyint: MyString
+  person: MyString
+  integer: MyString
+  sent_at: MyString
+  date: MyString
+  status: MyString
+  string: MyString
+
+two:
+  sender_address: MyString
+  string: MyString
+  body: MyString
+  text: MyString
+  subject: MyString
+  string: MyString
+  received_at: MyString
+  date: MyString
+  type: 
+  string: MyString
+  thread: MyString
+  integer: MyString
+  is_read: MyString
+  tinyint: MyString
+  person: MyString
+  integer: MyString
+  sent_at: MyString
+  date: MyString
+  status: MyString
+  string: MyString

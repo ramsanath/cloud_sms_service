@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails cloud_sms_service: development" uuid="f5d86d6c-ca5c-48aa-912b-56b4105159bc">
+      <database-info product="MySQL" version="5.7.21" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <user-name>dev</user-name>
+      <introspection-schemas>*:cloud_sms_dev</introspection-schemas>
+    </data-source>
+    <data-source name="Rails cloud_sms_service: production" uuid="0ee04fa2-7224-4857-98ed-8213ec468806">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>dev</user-name>
+    </data-source>
+    <data-source name="Rails cloud_sms_service: test" uuid="1674a175-6ce7-4a59-9655-981429b67062">
+      <database-info product="MySQL" version="5.7.21" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <user-name>dev</user-name>
+      <introspection-schemas>*:cloud_sms_test</introspection-schemas>
+    </data-source>
+  </component>
+</project>

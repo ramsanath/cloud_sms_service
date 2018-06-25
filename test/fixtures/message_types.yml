@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  android_code: MyString
+  integer: MyString
+  type: 
+  string: MyString
+  android_column_name: MyString
+
+two:
+  android_code: MyString
+  integer: MyString
+  type: 
+  string: MyString
+  android_column_name: MyString
